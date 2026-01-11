@@ -1,0 +1,27 @@
+# 
+#
+#
+
+format = """
+[](fg:red)\
+$directory\
+[](fg:red bg:yellow)\
+$git_branch\
+[](fg:yellow bg:blue)\
+$git_status\
+[](fg:blue) \
+$all\
+"""
+
+[directory]
+style = "fg:#282C34 bg:red"
+format = "[$path]($style)"
+
+[git_branch]
+style = "fg:#282C34 bg:yellow bold"
+symbol = "󰊢 "
+format = "[$symbol$branch(:$remote_branch)]($style)"
+
+[git_status]
+style = "fg:#282C34 bg:blue"
+format = '([\[$all_status$ahead_behind\]]($style))'
