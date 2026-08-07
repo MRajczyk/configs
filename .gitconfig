@@ -1,0 +1,11 @@
+[user]
+	email = mikolajrajczyk01@gmail.com
+	name = MRajczyk
+[alias]
+    ps = push
+    pu = push -u origin
+    st = status
+    ci = commit -v
+    co = checkout
+    cm = commit -m
+    cob = checkout -b
