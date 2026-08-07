@@ -3,6 +3,7 @@
 	name = MRajczyk
 [alias]
     ps = push
+    pl = pull
     pu = push -u origin
     st = status
     ci = commit -v
