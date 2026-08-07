@@ -10,4 +10,4 @@
     co = checkout
     cm = commit -m
     cob = checkout -b
-    glo = git log --oneline
+    lo = log --oneline
